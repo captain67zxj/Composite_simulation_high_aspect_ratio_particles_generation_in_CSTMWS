@@ -96,16 +96,13 @@ Dim rp As Double
 
 rp = 0.12  'y and z axis         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 StoreParameter("rp",rp)
-
 i = 1
-
-Co = "D:\HPM-NLTL-CST\AR_3.0\CoorFromMatlab\20%_AR_3_#2_0.12_sq.txt"
+	Co = "D:\CoorFromMatlab\20%_AR_3_#2_0.12_sq.txt"  <<<<<<<< 'the path of txt file that contains the cooridinates and Euler angles
 
 Open Co For Input As #1
 	Do Until EOF(1)
 		Line Input #1, Textline
 		CoorA = Split(Textline, " ")
-
 
 		x_cst = CDbl(CoorA(0))
 		y_cst = CDbl(CoorA(1))
