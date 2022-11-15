@@ -7,4 +7,4 @@ The first part is to generate the coordinates and Euler angles of non-overlappin
     M.A.Tschopp, 3-D synthetic microstructure generation with ellipsoid particles, Tech. Report, Weapons Mater. Res. Dir. US Army Res. Lab. Aberdeen Proving Ground, United States. (n.d.). https://apps.dtic.mil/sti/citations/AD1017883.
 Note that the rotation matrix was changed in the modifed code.
 
-The second part is to generate the ellipsoids using the coordinates and Euler angles generated from Matlab using Macros in CST Microwave Studio (CST MWS). 
+The second part in VBA macros is to generate the ellipsoids using the coordinates and Euler angles obtained from Matlab in CST Microwave Studio (CST MWS). 
