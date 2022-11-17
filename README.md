@@ -6,6 +6,6 @@ This repo. contians codes used in:
 
 The first part is to generate the coordinates and Euler angles of non-overlapping ellipsoids with random orientations for a specified volume fraction and aspect ratio in a 3D rectangle object using the Matlab codes from:
     "M.A.Tschopp, 3-D synthetic microstructure generation with ellipsoid particles, Tech. Report, Weapons Mater. Res. Dir. US Army Res. Lab. Aberdeen Proving Ground, United States. (n.d.). https://apps.dtic.mil/sti/citations/AD1017883."
-Note that the rotation matrix was changed to a general rotation matrix and other associated modifications were made in the modified Matlab codes.
+Note that the rotation matrix was changed to a general rotation matrix and other associated modifications were made in the provided Matlab codes.
 
-The second part (in VBA macros) is to generate the ellipsoids in CST Microwave Studio (CST MWS) using the coordinates and Euler angles obtained from the modified Matlab codes. Note that the Euler angles' unit needs to be converted from radian to degree; while the cooridnates' unit also needs to be converted based on the unit used in CST models before the Matlabe-generated data is used in CST macros.
+The second part (in VBA macros in CST Microwave Studio, CST MWS) is to generate the ellipsoids in CST MWS using the coordinates and Euler angles obtained from the modified Matlab codes. Note that the Euler angles' unit needs to be converted from radian to degree; while the cooridnates' unit also needs to be converted based on the unit used in CST models before the Matlabe-generated data is used in CST macros.
